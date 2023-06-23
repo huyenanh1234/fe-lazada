@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto-Regular,'Helvetica Neue',Helvetica,Tahoma,Arial,Sans-serif;
+}
+
+@mixin title{
+    display: block;
+    font-size: 25px;
+}
+
+@mixin dateBox{
+    float: left;
+    position: relative;
+    border: 1px solid #ddd;
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+@mixin nameBox{
+    position: relative;
+    display: block;
+    
+    label{
+        font-size: 12px;
+        height: 15px;
+        line-height: 15px;
+        overflow: hidden;
+        color: #424242;
+        display: block;
+        margin-bottom: 5px;
+    
+    }
+    input{
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid #ddd;
+        font-size: 14px;
+        height: 40px;
+        line-height: 38px;
+        padding: 0 35px 0 10px;
+        margin-bottom: 2px;
+        outline: none;
+    }
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+        background-color: #ff5faf;
+        text-align: center;
+}
+
+@mixin bottom-page{
+    width: 28px;
+    height: 40px;
+    padding: 0;
+    border-radius:3px ;
+}
+@mixin border-page{
+    border-width: 1px;
+    border-style: solid;
+    background-color: #eff0f5;
+    border-color: #dadada;
+}
+@mixin title{
+    display: block;
+    font-size: 25px;
+}

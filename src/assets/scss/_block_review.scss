@@ -1,0 +1,104 @@
+.block-review{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    .item{
+        padding: 17px 21px;
+        color: grey;
+        font-size: 12px;
+        border-bottom: 1px solid #eff0f5;
+        .top{
+            color: grey;
+            font-size: 12px;
+            .containerStar{
+                width: 100px;
+                height: 16.625px;
+                img{
+                    width: 16.625px;
+                    height: 16.625px;
+                }
+            }
+            .title-right{
+                font-size: 12px;
+                display: inline-block;
+                overflow: hidden;
+                word-break: break-word;
+                color: #757575;
+                float: right;
+            }
+        }
+        .middle{
+            margin: 5px 0 15px;
+            img{
+                margin-left: 8px;
+                margin-right: 3px;
+                vertical-align: sub;
+                width: 15px;
+                height: 16px;
+            }
+            .verify{
+                color: #4caf50;
+            }
+        }
+        .item-content{
+            .content-review{
+                color: #212121;
+                font-size: 14px;
+                white-space: pre-wrap;
+                word-break: break-word;
+            }
+            .review-img{
+                padding-top: 16px;
+                padding-bottom: 8px;
+                .list-img{
+                    display: flex;
+                    margin-left: -2px;
+                    .wraper-img{
+                        position: relative;
+                        cursor: pointer;
+                        border: 2px solid transparent;
+                        transition: all .3s cubic-bezier(.46,.03,.52,.96);
+                        display: block;
+                        width: auto;
+                        height: auto;
+                        text-align: initial;
+                        img{
+                            width: 94px;
+                            height: 94px;
+                            background-position: 50%;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            background-color: #eee;
+                        }
+                    }
+                }
+            }
+            .info-product{
+                font-size: 12px;
+                margin-top: 8px;
+            }
+            .bottom{
+                margin-top: 8px;
+                
+                .left{
+                    .like-icon{
+                        color: #bababa;
+                        margin-right: 7px;
+                        font-size: 16px;
+                    }
+                    a{
+                        color: #bababa;
+                    }
+                }
+                .right{
+                    .oper-wrap{
+                        color: #bababa;
+                        margin-right: 7px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    
+}

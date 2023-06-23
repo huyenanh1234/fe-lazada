@@ -1,0 +1,33 @@
+@import "common";
+.container3{
+    width: 100%;
+    background: #eff0f5;
+    @import "breadcrumb";
+    @import "content_product";
+    .additionInfoProduct{
+        width: 1188px;
+        background-color: #eff0f5;
+        margin: auto;
+        margin-top: 15px;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        padding-bottom: 24px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .blockDescription{
+            width: calc(100% - 200px);
+            display: flex;
+            flex-direction: column;
+            @import "desHeader";
+            @import "ratingAndReview";
+            @import "filter_comment";
+            @import "block_review";
+            @import "pagination";
+            @import "card_channels";
+            @import "relate_search";
+        }
+        @import "blockAds";
+    }
+
+}

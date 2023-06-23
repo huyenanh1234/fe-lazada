@@ -1,0 +1,45 @@
+.pagination{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    padding-right: 25px;
+    display: flex;
+    justify-content: end;
+    .pagination-block{
+        color: #212121;
+        font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Sans-serif;
+        font-size: 14px;
+        line-height: 1.28571;
+        .btn-left{
+            @include bottom-page;
+            cursor: not-allowed;
+            @include border-page;
+            background-color: #dadada;
+            i{
+                color: #fff;
+            }
+        }
+        .list-pagination{
+            display: inline-block;
+            vertical-align: top;
+            .btn-page{
+                @include bottom-page;
+                margin: 0;
+                font-size: 12px;
+                line-height: 38px;
+                @include border-page;
+            }
+            .chose{
+                border-color: #16849b;
+                background: #1a9cb7;
+                color: #fff;
+            }
+        }
+        .btn-right{
+            @include bottom-page;
+            @include border-page;
+        }
+    }
+    
+}

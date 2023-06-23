@@ -1,0 +1,129 @@
+.card-channels{
+            
+    @include title();
+    //height: 355px;
+    margin-bottom: 12px;
+    .card{
+        background-color: white;
+        height: auto;
+        .header-item{
+            display: flex;
+            justify-content: start;
+            width: 100%;
+            height: 55px;
+            background-color: white;
+            border-bottom: 1px solid rgb(201, 200, 200) ;
+            border-radius: 3px;
+            font-size: 16px;
+            .flash-content{
+                color: #f57224;
+                margin-top: 15px;
+                margin-left: 10px;
+                width: 150px;
+            }
+
+            .flash-time{
+                display: flex;
+                justify-content: start;
+                width: 800px;
+                .time-content{
+                    margin-top: 15px;
+                   
+                }
+                .time-box{
+                    border-radius: 2px;
+                    font-weight: 500;
+                    margin: 12px 6px;
+                    font-size: 16px;
+                    color: #fff;
+                    background-color: #d3232a;
+                    text-align: center;
+                    width: 40px;
+                    height: 35px;
+                    padding-top: 7px;
+                    //line-height: 35px;
+                }
+            }
+
+            .flash-button{
+                width: 300px;
+                margin-top: 5px;
+                button{
+                    font-weight: 500;
+                    font-size: 14px;
+                    float: right;
+                    display: block;
+                    border: 1px solid #f57224;
+                    border-radius: 2px;
+                    color: #f57224;
+                    height: 35px;
+                    background-color: transparent;
+                    line-height: 35px;
+                    text-align: center;
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    margin-right: 11px;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .item{
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            >a{
+                .small-item{
+                    background-color: #fff;
+                    >img{
+                        width: 188px;
+                        height: 188px;
+                        background-size: contain;
+                        line-height: 2;
+                        text-indent: -9999px;
+                        color: transparent!important;
+                        background-position: 50% 50%;
+                        text-align: center;
+                        background-repeat: no-repeat;
+                        display: block;
+                    }
+
+                    .pro-con{
+                        font-size: 15px;
+                        margin-left: 10px;
+                        .name-product{
+                            color: #212121;
+                            margin-top: 5px;
+                        }
+
+                        .price-product{
+                            color: #f57224;
+                            margin-top: 3px;
+                        }
+
+                        .old-product{
+                            display: flex;
+                            justify-content: start;
+                            margin-top: 3px;
+                            .discount1{
+                                color: #9e9e9e;
+                            }
+                            
+                            .discount2{
+                                margin-left: 10px;
+                            }
+                        }
+
+                        
+                    }
+
+                }
+            }
+
+            >a:hover .small-item{
+                box-shadow: 0px 1px 5px 2px #c0bdbd;
+            }
+        }
+    }
+}

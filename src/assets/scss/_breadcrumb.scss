@@ -1,0 +1,49 @@
+.breadcrumb{
+    width: 1188px;
+    height: 30px;
+    border-bottom: 1px solid #EFF0F5;
+    margin-left: 50px;
+    font-size: 14px;
+    .breadcrumbItem{
+        vertical-align: middle;
+        padding: 0;
+        margin: 0;
+        line-height: 100%;
+        display: inline-block;
+        font-weight: 300;
+        margin-top: 15px;
+        .title{
+            a{
+                display: inline-block;
+                vertical-align: middle;
+                color: #1a9cb7;
+                padding: 0 4px;
+                font-size: 14px;
+                font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
+                max-width: 200px;
+                white-space: nowrap;
+                line-height: 16px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            img{
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                vertical-align: middle;
+            }
+        }
+
+        .nameProduct{
+            a{
+                color: #757575;
+                max-width: none;
+                height: 16px;
+                line-height: 16px;
+                white-space: normal;
+            }
+        }
+    }
+}
