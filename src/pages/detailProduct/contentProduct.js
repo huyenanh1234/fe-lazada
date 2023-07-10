@@ -1,6 +1,6 @@
 import { RxCaretLeft, RxCaretRight } from 'react-icons/rx';
 import { SlLocationPin } from 'react-icons/sl';
-import { AiOutlineInfoCircle } from 'react-icons/ai';
+import { AiOutlineInfoCircle, AiOutlineShareAlt, AiOutlineHeart } from 'react-icons/ai';
 import { CiDeliveryTruck } from 'react-icons/ci';
 import { ImEarth } from 'react-icons/im';
 import { BsCashCoin } from 'react-icons/bs';
@@ -8,7 +8,7 @@ import { BiBookBookmark } from 'react-icons/bi';
 import { FiRotateCcw } from 'react-icons/fi';
 import { BsShieldSlash } from 'react-icons/bs';  
 import { CiMobile2 } from 'react-icons/ci';
-import { HiChatAlt2 } from 'react-icons/hi'
+import { HiChatAlt2 } from 'react-icons/hi';
 
 const ContentProduct=()=>{
     return(
@@ -79,10 +79,10 @@ const ContentProduct=()=>{
                         </div>
                         <div className="share">
                             <div className="shareNode">
-                                <i className="fa-solid fa-share-nodes"></i>
+                                <i><AiOutlineShareAlt/></i>
                             </div>
                             <div className="shareNode">
-                                <i className="fa-regular fa-heart"></i>
+                                <i><AiOutlineHeart/></i>
                             </div>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Countdown from "../helpers/countdown";
 const page=()=>{
     return(
         <>
@@ -49,14 +50,7 @@ const page=()=>{
                     <div className="card">
                         <div className="header-item">
                             <div className="flash-content"> Đang bán</div>
-                                <div className="flash-time">
-                                    <span><div className="time-content"></div>Kết thúc trong</span>
-                                    <span><div className="time-box h" id="hh">00</div></span>
-                                    <span><div className="time-content">:</div></span>
-                                    <span><div className="time-box m" id="mm">00</div></span>
-                                    <span><div className="time-content">:</div></span>
-                                    <span><div className="time-box s" id="ss">00</div></span>
-                                </div>
+                                <Countdown/>
                             <div className="flash-button"><button type="button">Mua sắm toàn bộ sản phẩm</button></div>
                         </div>
                         <div className="item itemAdd">

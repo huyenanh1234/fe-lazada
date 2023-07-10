@@ -7,17 +7,17 @@ const footer=()=>{
                         <ul className="cardUl">
                             <li className="cardLi">
                                 <a href="#">
-                                    <img src="images/footer/card/bottom1.png" alt="discount" className=""/>
+                                    <img src="/images/footer/card/bottom1.png" alt="discount" className=""/>
                                 </a>
                             </li>
                             <li className="cardLi">
                                 <a href="#">
-                                    <img src="images/footer/card/bottom2.png" alt="discount" className=""/>
+                                    <img src="/images/footer/card/bottom2.png" alt="discount" className=""/>
                                 </a>
                             </li>
                             <li className="cardLi">
                                 <a href="#">
-                                    <img src="images/footer/card/bottom3.png" alt="discount" className=""/>
+                                    <img src="/images/footer/card/bottom3.png" alt="discount" className=""/>
                                 </a>
                             </li>
                         </ul>
@@ -59,7 +59,7 @@ const footer=()=>{
                             </div>
                             <div className="footer-right col-6 d-flex justify-content-evenly">
                                 <div className="app-icon">
-                                    <img src="images/footer/app/appIcon.png" alt="" className=""/>
+                                    <img src="/images/footer/app/appIcon.png" alt="" className=""/>
                                 </div>
                                 <div className="app-download-text">
                                     <div className="title">Go where your heart beats</div>
@@ -68,14 +68,14 @@ const footer=()=>{
                                 <div className="app-left">
                                     <div className="d-flex">
                                         <a href="#" className="col-6">
-                                            <img src="images/footer/app/appGooglePlay.png"/>
+                                            <img src="/images/footer/app/appGooglePlay.png"/>
                                         </a>
                                         <a href="#" className="col-6">
-                                            <img src="images/footer/app/appStore.png"/>
+                                            <img src="/images/footer/app/appStore.png"/>
                                         </a>
                                     </div>
                                     <a href="#" className="">
-                                        <img src="images/footer/app/appGallery.png"/>
+                                        <img src="/images/footer/app/appGallery.png"/>
                                     </a>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const footer=()=>{
                                     Payment Methods
                                 </h3>
                                 <div className="payment">
-                                    <img src="images/footer/paymentMethod/payment.png"/>
+                                    <img src="/images/footer/paymentMethod/payment.png"/>
                                 </div>
                             </div>
                             <div className="footer-center">
@@ -96,7 +96,7 @@ const footer=()=>{
                                     Delivery Services
                                 </h3>
                                 <div className="delivery">
-                                    <img src="images/footer/delivery/delivery.png"/>
+                                    <img src="/images/footer/delivery/delivery.png"/>
                                 </div>
                             </div>
                             <div className="footer-right">
@@ -104,7 +104,7 @@ const footer=()=>{
                                     Verified by
                                 </h3>
                                 <div className="verified">
-                                    <img src="images/footer/verified/verified.png"/>
+                                    <img src="/images/footer/verified/verified.png"/>
                                 </div>
                             </div>
                         </div>
@@ -326,13 +326,13 @@ const footer=()=>{
                             <div className="footer-left col-6">
                                 <h3 className="footer-title">Lazada Southeast Asia</h3>
                                 <div className="flag">
-                                    <img src="images/footer/flag/flag.png"/>
+                                    <img src="/images/footer/flag/flag.png"/>
                                 </div>
                             </div>
                             <div className="footer-center col-3" >
                                 <h3 className="footer-title">Follow Us</h3>
                                 <div className="social">
-                                    <img src="images/footer/flag/socialMedia.png"/>
+                                    <img src="/images/footer/flag/socialMedia.png"/>
                                 </div>
                             </div>
                             <div className="footer-right col-3">

@@ -1,4 +1,11 @@
+import { BsEyeSlash } from "react-icons/bs";
 const Login=()=>{
+    
+    const hiddenPass=async()=>{
+        //console.log(e);
+        console.log(1111);
+    }
+    
     return(
         <>
             <form className="loginContainer">
@@ -21,10 +28,9 @@ const Login=()=>{
                     <label>Password</label>
                     <div className="getPass">
                         <input className="getPass1" id="getPass1" type="password" placeholder="Please enter your password" data-meta="Field" value=""/>
-                        <div className="getPass2"><i id="getPass2" className="fa fa-eye-slash" aria-hidden="true" onclick="hiddenPass()"></i></div>
+                        <div className="getPass2" id="getPass2" ><BsEyeSlash onclick={hiddenPass()}/></div>
                     </div>
                     <br></br><span></span>
-                    
                     </div>
                     <div className="loginForgot">
                     <a href="#">Forgot Password?</a>
