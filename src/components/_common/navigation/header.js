@@ -22,7 +22,7 @@ const Header=()=>{
                         </div>
                         <div className="navMenu2">
                             <ul>
-                                <li className="banner-logo"><Link to={'/'}><img src="images/header/banner_logo.png" alt="logo"/></Link></li>
+                                <li className="banner-logo"><Link to={'/'}><img src="/images/header/banner_logo.png" alt="logo"/></Link></li>
                                 <li className="search-box-1">
                                     <div className="">
                                         <input type="search" placeholder="Tìm kiếm trên Lazada" />
@@ -42,7 +42,7 @@ const Header=()=>{
                                     </div>
                                 </li>
                                 <li><a href="#"><i><AiOutlineShoppingCart/></i></a></li>
-                                <li className="banner-bank"><a href="#"><img src="images/header/banner_bank.png" alt="logo bank"/></a></li>
+                                <li className="banner-bank"><a href="#"><img src="/images/header/banner_bank.png" alt="logo bank"/></a></li>
                             </ul>
                         </div>
                         <div className="dropdown-menu-mini">
@@ -56,7 +56,7 @@ const Header=()=>{
                                         <li>
                                             <a>
                                                 <div className="small-item">
-                                                    <img src="images/header/nav/small-icon1.png"/>
+                                                    <img src="/images/header/nav/small-icon1.png"/>
                                                     <div className="small-content">LAZMALL</div>
                                                 </div>
                                             </a>
@@ -64,14 +64,14 @@ const Header=()=>{
                                         <li>
                                             <a>
                                                 <div className="small-item">
-                                                    <img src="images/header/nav/small-icon2.png"/>
+                                                    <img src="/images/header/nav/small-icon2.png"/>
                                                     <div className="small-content">Vouchers</div>
                                                 </div>
                                             </a>
                                         </li>
                                         <li><a>
                                                 <div className="small-item">
-                                                    <img src="images/header/nav/small-icon3.png"/>
+                                                    <img src="/images/header/nav/small-icon3.png"/>
                                                     <div className="small-content">Top Up & eCoupon</div>
                                                 </div>
                                             </a>
@@ -79,7 +79,7 @@ const Header=()=>{
                                         <li>
                                             <a>
                                                 <div className="small-item">
-                                                    <img src="images/header/nav/small-icon4.png"/>
+                                                    <img src="/images/header/nav/small-icon4.png"/>
                                                     <div className="small-content">LazGlobal</div>
                                                 </div>
                                             </a>

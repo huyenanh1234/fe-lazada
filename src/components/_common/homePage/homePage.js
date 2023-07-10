@@ -1,4 +1,5 @@
 import {IoIosArrowForward} from "react-icons/io";
+import SimpleSlider from "../../../pages/helpers/slickSlide";
 const  Homepage=()=>{
     return(
         <>
@@ -47,19 +48,7 @@ const  Homepage=()=>{
                     </nav>
                 </div>
                 <div className="menu-images">
-                    <img id="bannerImg" src="images/banner/img1.jpg" alt="main banner"/>
-                </div>
-                <div className="dotBanner">
-                    <div className="dotImg">
-                        <span id="dot" className="dot" data-slide={1}></span>
-                        <span id="dot" className="dot" data-slide={2}></span>
-                        <span id="dot" className="dot" data-slide={3}></span>
-                        <span id="dot" className="dot" data-slide={4}></span>
-                        <span id="dot" className="dot" data-slide={5}></span>
-                        <span id="dot" className="dot" data-slide={6}></span>
-                        <span id="dot" className="dot" data-slide={7}></span>
-                        <span id="dot" className="dot" data-slide={8}></span>
-                    </div>
+                    <SimpleSlider/>
                 </div>
             </div>
         </>
