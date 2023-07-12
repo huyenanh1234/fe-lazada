@@ -6,7 +6,7 @@ const Navigation = ()=>{
     return(
         <>
             <div className="main-nav-bar">
-                <nav>
+                <div className="navMain">
                     <div className="container-fluid navMenu p-0">
                         <div className="container1 navMenu1 d-flex justify-content-end">
                             <ul>
@@ -31,7 +31,7 @@ const Navigation = ()=>{
                             </ul>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
         
         </>

@@ -10,7 +10,7 @@ export default function Layout(){
             </header>
             <Navigation/>
             <Homepage/>
-            <div className="page">
+            <div className="page d-flex justify-content-center">
                 <Outlet/>
             </div>
             <Footer/>

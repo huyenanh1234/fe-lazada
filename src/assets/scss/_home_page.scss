@@ -1,17 +1,17 @@
 .home-page{
     width: 100%;
+    min-width: 1188px;
     height: 344px;
     margin-top: 15px;
     background-color: #ff5faf;
-    position: relative;
+    display: flex;
+    justify-content: center;
     .menu-dropdown{
         width: 200px;
         height: 344px;
-        position: absolute;
         box-shadow: 0 0 2px 0 rgba(0,0,0,.25);
         background-color: #fff;
         z-index: 200;
-        margin-left: 80px;
 
         ul{
             padding: 0px;
@@ -77,10 +77,11 @@
     }
     
     .menu-images{
-        margin-left: 280px;
+        width: 988px;
         img{
             width: 988px;
             height: 344px;
+            
             background-size: contain;
             line-height: 2;
             text-indent: -9999px;

@@ -1,13 +1,14 @@
 .main-nav-bar{
-    display: flex;
-    flex-direction: column;
-    nav{
-        background-color: white;
+    width: 100%;
+    //min-width: 1188px;
+    .navMain{
+        //padding-left: 120px;
        .navMenu{
             width: 100%;
+            min-width: 1188px;
             .navMenu1{
                 background-color: #f5f5f5;
-                
+                width: 100%;
                 ul{
                     width: fit-content;
                     text-align: center;
@@ -87,10 +88,6 @@
                             font-size: 25px;
                             background-color: orange;
                             color: white;
-                        }
-
-                        .cartStyle{
-                            
                         }
                     }
     
