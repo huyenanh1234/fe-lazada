@@ -7,7 +7,7 @@ const Header=()=>{
     return(
         <>
             <div className="main-nav-bar">
-                <nav>
+                <div className="navMain">
                     <div className="container-fluid navMenu p-0">
                         <div className="navMenu1 container1 d-flex justify-content-end">
                             <ul>
@@ -89,7 +89,7 @@ const Header=()=>{
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
         </>
     )

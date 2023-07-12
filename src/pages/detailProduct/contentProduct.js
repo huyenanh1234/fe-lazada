@@ -40,8 +40,17 @@ const ContentProduct=()=>{
                                     }}
                                 >
                                     <div className="nextSlickSlide itemGalleryThumbnail">
-                                        <div id="imgDetails" className="itemGallery" data-img="${i+1}">
+                                        <div id="imgDetails" className="itemGallery">
                                             <img src="images/productDetails/img1.jpg"/>
+                                        </div>
+                                        <div id="imgDetails" className="itemGallery">
+                                            <img src="images/productDetails/img2.jpg"/>
+                                        </div>
+                                        <div id="imgDetails" className="itemGallery">
+                                            <img src="images/productDetails/img3.jpg"/>
+                                        </div>
+                                        <div id="imgDetails" className="itemGallery">
+                                            <img src="images/productDetails/img4.jpg"/>
                                         </div>
                                     </div>
                                 </div>

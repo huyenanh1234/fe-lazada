@@ -1,8 +1,10 @@
 .page{
     background-color:#f5f5f5;
+    width: 100%;
+    min-width: 1188px;
     .main-content{
         display: block;
-        margin: 0px 80px 0px 80px;
+        //margin: 0px 80px 0px 80px;
         padding: 0px;
         width: 1188px;
         height: auto;
