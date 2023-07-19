@@ -28,18 +28,7 @@ const Header=()=>{
                                         <input type="search" placeholder="Tìm kiếm trên Lazada" />
                                         <a href="#"><i className="iStyle"><BiSearch/></i></a>
                                     </div>
-                                    <div className="hot-border d-flex justify-content-start">
-                                        <a href="#">aquayaki | </a>
-                                        
-                                        <a href="#"> dimmer 4000w | </a>
-                                        
-                                        <a href="#"> harley davidson decal | </a>
-                                        
-                                        <a href="#"> sofirn sc21 pro | </a>
-                                        
-                                        <a href="#"> loa sony xb23 </a>
-
-                                    </div>
+                                   
                                 </li>
                                 <li><a href="#"><i><AiOutlineShoppingCart/></i></a></li>
                                 <li className="banner-bank"><a href="#"><img src="/images/header/banner_bank.png" alt="logo bank"/></a></li>

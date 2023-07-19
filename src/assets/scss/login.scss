@@ -1,21 +1,23 @@
 .loginContainer{
-    background-color: #d1cbcb;
+    background-color: #eff0f5;
     height: 340px;
     .loginTitle{
         width: 810px;
-        margin: 50px auto 15px;
+        margin: 25px auto 15px;
         height: 26px;
         line-height: 26px;
         display: flex;
         justify-content: space-between;
         .welcome{
+            padding-top: 25px;
             float: right;
-            margin-top: -26px;
             color: #757575;
+            
         }
         .register{
             float: right;
-            margin-top: -26px;
+            padding-top: 25px;
+         
             color: #757575;
             font-size: 10px;
         }
@@ -49,19 +51,36 @@
                     width: 100%;
                     border: 1px solid #ddd;
                     font-size: 14px;
-                    margin-bottom: 2px;
-                    outline: none;
-                    display: flex;
-                    justify-content: space-between;
+                    height: 40px;
+                  
                     .getPass1{
                         width: 100%;
                         border: none;
-                        padding-bottom: 1px;
+              
                     }
-                    .getPass2{
-                       margin-top: 10px;
-                       margin-right: 10px;
+                    .eye-close :hover{
+                        cursor: pointer;
+                        
                     }
+                    .eye-close{
+                        position: relative;
+                        left: 289px;
+                        font-size: 20px;
+                        top: -31px;
+                        color:#999;
+                    }
+                    .eye-open{
+                        position: relative;
+                        left: 289px;
+                        font-size: 22px;
+                        top: -31px;
+                        color:#999;
+                        display: none;
+                    }
+                    .eye-open:hover{
+                        cursor: pointer;
+                    }
+                  
                 }
             }
 

@@ -10,6 +10,7 @@ import Brand from "../pages/brand/brand";
 import Products from "../pages/brand/products";
 import Profile from "../pages/brand/profile";
 import Store from "../pages/brand/store";
+import ForgotPassword from "../pages/account/forgotPassword";
 const router = createBrowserRouter([
     
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path:"register",
                 element: <Register/>,
+            },
+            {
+                path:"forgotPassword",
+                element:<ForgotPassword/>
             },
             {
                 path:"store",
