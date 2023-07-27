@@ -305,7 +305,8 @@ const AdditionInfoProduct=()=>{
                         <div className="pagination-block">
                             <button className="btn-left">
                                 <RxCaretLeft style={{fontSize:'30px',
-                                    marginLeft:'-3px',    
+                                    marginLeft:'-3px', 
+                                    color :'#fff',    
                                 }}
                                 />
                             </button>
@@ -318,7 +319,8 @@ const AdditionInfoProduct=()=>{
                             </div>
                             <button className="btn-right">
                                 <RxCaretRight style={{fontSize:'30px',
-                                    marginLeft:'-3px',   
+                                    marginLeft:'-3px', 
+                                    color :'#fff',
                                 }}
                                 />
                             </button>

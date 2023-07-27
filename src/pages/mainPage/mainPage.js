@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Countdown from "../helpers/countdown";
+import Countdown from "../../helpers/countdown";
 const page=()=>{
     return(
         <>

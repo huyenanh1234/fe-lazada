@@ -63,98 +63,8 @@
                 }
             }
         }
-        .slickContent{
-            .nextSlickInner{
-                display: flex;
-                justify-content: space-between;
-                .nextSlickList{
-                    left: 28px;
-                    overflow: hidden;
-                    display: block;
-                    margin: 0;
-                    padding: 0;
-                    transform: translateZ(0);
-                    //position: relative;
-                    .nextListTrack{
-                        height: 52px;
-                        overflow: hidden;
-                        width: 330px;
-                        transition: transform .5s ease;
-                        position: relative;
-                        //left:-150px;
-                        .nextSlickSlide{
-                            float: left;
-                            height: 100%;
-                            min-height: 1px;
-                            outline: 0;
-                            transition: all .3s cubic-bezier(.86,0,.07,1);
-                            margin-right: 5px;
-                            .itemGallery{
-                                width: 52px;
-                                height: 52px;
-                                display: table-cell;
-                                vertical-align: middle;
-                                margin: auto;
-                                box-sizing: border-box;
-                                border: 1px solid #dadada;
-                                border-radius: 2px;
-                                text-align: center;
-                                img{
-                                    width: auto;
-                                    height: auto;
-                                    max-width: 50px;
-                                    max-height: 50px;
-                                    margin: auto;
-                                    display: block;
-                                    visibility: visible;
-                                    position: absolute;
-                                    top:1px
-                                }
-
-                            }
-                            
-                            .activeBorder{
-                                border: 0.5px solid #f57224;
-                            }
-                            
-                        }
-                        .itemGalleryThumbnail{
-                            width: 52px;
-                            height: 52px;
-                            box-sizing: border-box;
-                        }
-
-                        .itemGalleryThumbnail:not(:last-child){
-                            margin-right: 14px;
-                        }
-                    }
-                }
-                .nextSlickPrev{
-                    width: 20px;
-                    height: 56px;
-                    line-height: 56px;
-                    // margin-left: 5px;
-                    // margin-right: 5px;
-                    cursor: not-allowed;
-                    text-align: center;
-                    transition: .4s ease-in;
-                    background-color: white;
-                    
-                }
-                .nextSlickNext{
-                    width: 30px;
-                    height: 56px;
-                    margin-left: 5px;
-                    margin-right: 5px;
-                    line-height: 56px;
-                    cursor: pointer;
-                    text-align: center;
-                    transition: .4s ease-in;
-                    background-color: white;
-                    
-                }
-            }
-        }
+        @import "slick_slide";
+        
     }
 
     .blockContent{
@@ -369,6 +279,7 @@
                             user-select: none;
                             display: flex;
                             justify-content: start;
+                            margin-top: 8px;
                             .colorImg{
                                 box-sizing: border-box;
                                 display: inline-block;
@@ -400,7 +311,7 @@
 
 
                             .size{
-                                box-sizing: border-box;
+                                //box-sizing: border-box;
                                 display: inline-flex;
                                 align-items: center;
                                 justify-content: center;
@@ -411,9 +322,9 @@
                                 min-width: 48px;
                                 max-width: 388px;
                                 height: 32px;
-                                margin: 8px 8px 0 0;
-                                padding-right: 8px;
-                                padding-left: 8px;
+                                margin-left: 8px;
+                                // padding-right: 8px;
+                                // padding-left: 8px;
                                 background: #fff;
                                 border: 1px solid #dadada;
                                 border-radius: 2px;
@@ -429,15 +340,14 @@
                                     overflow: hidden;
                                     font-size: 12px;
                                 }
+                                
                             }
                             .colorImg :hover{
                                 border:1px solid  #f57224;
                             }
-                            .size :hover{
+                            .size:hover{
                                 border:1px solid  #f57224;
                             }
-
-                            
                         }
                         
 

@@ -1,6 +1,7 @@
 @import "common";
 .container3{
     width: 100%;
+    min-width: 1188px;
     background: #eff0f5;
     @import "breadcrumb";
     @import "content_product";

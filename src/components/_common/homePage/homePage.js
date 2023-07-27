@@ -1,5 +1,5 @@
 import {IoIosArrowForward} from "react-icons/io";
-import SimpleSlider from "../../../pages/helpers/slickSlide";
+import SimpleSlider from "../../../helpers/slickSlide";
 const  Homepage=()=>{
     return(
         <>

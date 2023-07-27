@@ -7,11 +7,12 @@
     display: flex;
     justify-content: end;
     .pagination-block{
-        color: #212121;
+        //color: #212121;
         font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Sans-serif;
         font-size: 14px;
         line-height: 1.28571;
         .btn-left{
+            
             @include bottom-page;
             cursor: not-allowed;
             @include border-page;
@@ -29,14 +30,24 @@
                 font-size: 12px;
                 line-height: 38px;
                 @include border-page;
+                margin-left: 4px;
             }
             .chose{
                 border-color: #16849b;
                 background: #1a9cb7;
                 color: #fff;
             }
+            .chose:hover{
+                border-color: #16849b;
+                background: #1a9cb7;
+                color: #fff;
+            }
+            .btn-page:hover{
+                background-color: #dadada;
+            }
         }
         .btn-right{
+            margin-left: 4px;
             @include bottom-page;
             @include border-page;
         }

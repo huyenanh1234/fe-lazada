@@ -1,4 +1,3 @@
-import { RxCaretLeft, RxCaretRight } from 'react-icons/rx';
 import { SlLocationPin } from 'react-icons/sl';
 import { AiOutlineInfoCircle, AiOutlineShareAlt, AiOutlineHeart } from 'react-icons/ai';
 import { CiDeliveryTruck } from 'react-icons/ci';
@@ -9,60 +8,15 @@ import { FiRotateCcw } from 'react-icons/fi';
 import { BsShieldSlash } from 'react-icons/bs';  
 import { CiMobile2 } from 'react-icons/ci';
 import { HiChatAlt2 } from 'react-icons/hi';
-
+import { MultipleItems } from '../../helpers/slickSlide';
+import { useRef } from 'react';
 const ContentProduct=()=>{
+    const imageRef = useRef();
     return(
         <>
             <div className="contentProduct">
                 <div className="blockImg">
-                    <div className="galleryPreview">
-                        <div id="galleryPreviewContent" className="galleryPreviewContent">
-                            <img id="previewContentImg" src="images/productDetails/img1.jpg" alt=""/>
-                            <div id="previewHoverBox" className="previewHoverBox"></div>
-                        </div>
-                        <div id="previewZoomBox" className="previewZoomBox">
-                            <div id="zoomBox" className="zoomBox" ></div>
-                        </div>
-                    </div>
-                    <div className="slickContent">
-                        <div className="nextSlickInner">
-                            <div id="nextSlickPrev"  className="nextSlickPrev">
-                                <RxCaretLeft style={{fontSize:'30px',
-                                    marginLeft:'-3px',    
-                                }}
-                                />
-                            </div>
-                            <div id="nextSlickList" className="nextSlickList">
-                                <div id="nextListTrack" className="nextListTrack" style={{
-                                        opacity: "1", 
-                                        width: "928px", 
-                                        transform: "translate3d(0px, 0px, 0px)",
-                                    }}
-                                >
-                                    <div className="nextSlickSlide itemGalleryThumbnail">
-                                        <div id="imgDetails" className="itemGallery">
-                                            <img src="images/productDetails/img1.jpg"/>
-                                        </div>
-                                        <div id="imgDetails" className="itemGallery">
-                                            <img src="images/productDetails/img2.jpg"/>
-                                        </div>
-                                        <div id="imgDetails" className="itemGallery">
-                                            <img src="images/productDetails/img3.jpg"/>
-                                        </div>
-                                        <div id="imgDetails" className="itemGallery">
-                                            <img src="images/productDetails/img4.jpg"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="nextSlickNext" className="nextSlickNext">
-                                <RxCaretRight style={{fontSize:'30px',
-                                        marginRight:'-3px',    
-                                    }}
-                                />
-                            </div>
-                        </div>
-                    </div>
+                    <MultipleItems/>
                 </div>
                 <div className="blockContent">
                     <div className="proHeader">
@@ -199,7 +153,7 @@ const ContentProduct=()=>{
                                 </a>
                                 <div className="quantityBlock">
                                     <span className="quantity">
-                                        <input type="text" step="1" min="1" max="30" value="1" autocomplete="off" height="100%"/>
+                                        <input type="text" step="1" min="1" max="30" defaultValue="1" autoComplete="off" height="100%"/>
                                     </span>
                                 </div>
                                 <a href="#">

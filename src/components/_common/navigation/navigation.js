@@ -24,7 +24,7 @@ const Navigation = ()=>{
                                 <li className="banner-logo"><Link to={"/"}><img src="images/header/banner_logo.png" alt="logo"/></Link></li>
                                 <li className="search-box-1">
                                     <input type="search" placeholder="Tìm kiếm trên Lazada" />
-                                    <a href="#"><i className="iStyle"><BiSearch/></i></a>
+                                    <Link href="#" to={'/find'}><i className="iStyle"><BiSearch/></i></Link>
                                 </li>
                                 <li><a href="#"><i><AiOutlineShoppingCart/></i></a></li>
                                 <li className="banner-bank"><a href="#"><img src="images/header/banner_bank.png" alt="logo bank"/></a></li>

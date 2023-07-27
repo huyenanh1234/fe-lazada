@@ -11,6 +11,8 @@ import Products from "../pages/brand/products";
 import Profile from "../pages/brand/profile";
 import Store from "../pages/brand/store";
 import ForgotPassword from "../pages/account/forgotPassword";
+import { elements } from "chart.js";
+import FindProduct from "../pages/findProduct/findProduct";
 const router = createBrowserRouter([
     
     {
@@ -35,6 +37,10 @@ const router = createBrowserRouter([
                 element:<ForgotPassword/>
             },
             {
+                path:"find",
+                element:<FindProduct/>,
+            },
+            {
                 path:"store",
                 element:<Store/>,
                 children:[
@@ -46,6 +52,7 @@ const router = createBrowserRouter([
                         path:"products",
                         element: <Products/>,
                     }
+                    
                 ]
             }
             // {
