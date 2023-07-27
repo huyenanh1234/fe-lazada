@@ -12,9 +12,11 @@
             width: 100%;
             height: 55px;
             background-color: white;
-            border-bottom: 1px solid rgb(201, 200, 200) ;
+            border-bottom: 1px solid #EFF0F5 ;
             border-radius: 3px;
             font-size: 16px;
+            margin-bottom: 10px;
+            padding-bottom: 10px ;
             .flash-content{
                 color: #f57224;
                 margin-top: 15px;
@@ -64,6 +66,55 @@
                     padding-right: 10px;
                     margin-right: 11px;
                     margin-top: 5px;
+                }
+            }
+            .find-title{
+                font-size: 20px;
+                margin-top: 15px;
+                padding-bottom: 15px;
+            }
+            .find-function{
+                color: #666;
+                font-size: 14px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            .sort-function{
+                margin-top: -15px;
+                .sort-title{
+                    color: rgba(0,0,0,.85);
+                    font-size: 13px;
+                    line-height: 40px;
+                    display: block;
+                }
+                
+                .dropdown{
+                    margin-left: 10px;
+                    .btn{
+                        // color: rgba(0,0,0,.85);
+                        // background-color: #fff;
+                        // border-color: #6c757d;
+                    }
+                    .btn:hover{
+                        // border-color: rgba(0,0,0,.85); 
+                    }
+                    .btn-secondary{
+                        --bs-btn-color: #6c757d;
+                        --bs-btn-bg: #fff;
+                    }
+                    .btn-secondary:hover{
+                        border-color: rgba(0,0,0,.85); 
+                    }
+                    .dropdown-toggle{
+                        .dropdown-menu{
+                            .dropdown-header{
+
+                            }
+                            .dropdown-item{
+
+                            }
+                        }
+                    }
                 }
             }
         }
