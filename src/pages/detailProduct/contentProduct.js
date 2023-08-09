@@ -21,7 +21,7 @@ const ContentProduct=()=>{
                 <div className="blockContent">
                     <div className="proHeader">
                         <div className="proArea">
-                            <img src="images/productDetails/iconLazGlobal.png"/>
+                            <img src="/images/productDetails/iconLazGlobal.png"/>
                         </div>
                         <div className="proTitle">
                             <h1>Dép Lê Hai Dây Cổ Điển Phong Cách Hồng Kông Harajuku Harajuku Ins Phong Cách Hàn Quốc Sọc Mảnh Dép Đi Biển Đế Dày Học Sinh Mùa Hè Nữ Xăng Đan Đi Bên Ngoài</h1>
@@ -30,11 +30,11 @@ const ContentProduct=()=>{
                     <div className="proRating">
                         <div className="rating">
                             <div className="rateStar">
-                                <img src="images/productDetails/star.png"/>
-                                <img src="images/productDetails/star.png"/>
-                                <img src="images/productDetails/star.png"/>
-                                <img src="images/productDetails/star.png"/>
-                                <img src="images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png"/>
                             </div>
                             <div className="rateQuantity">
                                 <a href="#">21 Ratings</a>

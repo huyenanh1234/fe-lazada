@@ -64,7 +64,7 @@ export function MultipleItems() {
   const imageRef = useRef();
   return (
     <>
-    {/* <div className="galleryPreview">
+    <div className="galleryPreview">
       <div id="galleryPreviewContent" className="galleryPreviewContent">
           <img id="previewContentImg" src="images/productDetails/img1.jpg" ref={imageRef} alt=""/>
           <div id="previewHoverBox" className="previewHoverBox"></div>
@@ -72,29 +72,29 @@ export function MultipleItems() {
       <div id="previewZoomBox" className="previewZoomBox">
           <div id="zoomBox" className="zoomBox" ></div>
       </div>
-    </div> */}
+    </div>
     <div className="slickContent">
       <Slider {...settings}>
       <div className="itemGallery">
-        <img className="activeBorder" src="images/productDetails/img1.jpg"/>
+        <img className="activeBorder" src="/images/productDetails/img1.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img2.jpg"/>
+        <img src="/images/productDetails/img2.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img3.jpg"/>
+        <img src="/images/productDetails/img3.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img4.jpg"/>
+        <img src="/images/productDetails/img4.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img5.jpg"/>
+        <img src="/images/productDetails/img5.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img6.jpg"/>
+        <img src="/images/productDetails/img6.jpg"/>
       </div>
       <div className="itemGallery">
-        <img src="images/productDetails/img7.jpg"/>
+        <img src="/images/productDetails/img7.jpg"/>
       </div>
       </Slider>
     </div>
