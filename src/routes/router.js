@@ -13,6 +13,8 @@ import Store from "../pages/brand/store";
 import ForgotPassword from "../pages/account/forgotPassword";
 import { elements } from "chart.js";
 import FindProduct from "../pages/findProduct/findProduct";
+import Delivered from "../pages/detailOrder/delivered";
+import Review from "../pages/review/review";
 const router = createBrowserRouter([
     
     {
@@ -39,6 +41,14 @@ const router = createBrowserRouter([
             {
                 path:"find",
                 element:<FindProduct/>,
+            },
+            {
+                path:"delivered",
+                element:<Delivered/>,
+            },
+            {
+                path:"review",
+                element:<Review/>,
             },
             {
                 path:"store",

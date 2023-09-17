@@ -7,33 +7,33 @@ const page=()=>{
                 <nav>
                     <ul>
                         <li>
-                            <a>
+                            <a href="/">
                                 <div className="small-item">
-                                    <img src="images/header/nav/small-icon1.png"/>
+                                    <img src="images/header/nav/small-icon1.png" alt='#'/>
                                     <div className="small-content">LAZMALL</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="/">
                                 <div className="small-item">
-                                    <img src="images/header/nav/small-icon2.png"/>
+                                    <img src="images/header/nav/small-icon2.png" alt='#'/>
                                     <div className="small-content">Mã giảm giá</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="/">
                                 <div className="small-item">
-                                    <img src="images/header/nav/small-icon3.png"/>
+                                    <img src="images/header/nav/small-icon3.png" alt='#'/>
                                     <div className="small-content">Nạp thẻ và eVoucher</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a>
+                            <a href="/">
                                 <div className="small-item">
-                                    <img src="images/header/nav/small-icon4.png"/>
+                                    <img src="images/header/nav/small-icon4.png" alt='#'/>
                                     <div className="small-content">LazGlobal</div>
                                 </div>
                             </a>
@@ -189,11 +189,11 @@ const page=()=>{
                         <div><span>LazMall</span>
                         </div>
                         <div className="watch-more">
-                            <a href="#"> Xem Thêm <i className="fa-solid fa-angle-right"></i></a>
+                            <a href="/"> Xem Thêm <i className="fa-solid fa-angle-right"></i></a>
                         </div>
                     </div>
                     <div className="item">
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand1.jpg" alt="thương hiệu 1"/>
@@ -205,7 +205,7 @@ const page=()=>{
                                 <div className="brand">Vinamilk</div>
                         </div>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand2.jpg" alt="thương hiệu 1"/>
@@ -217,7 +217,7 @@ const page=()=>{
                                 <div className="brand">Vinamilk</div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand3.jpg" alt="thương hiệu 1"/>
@@ -229,7 +229,7 @@ const page=()=>{
                                 <div className="brand">Vinamilk</div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand4.png" alt="thương hiệu 1"/>
@@ -241,7 +241,7 @@ const page=()=>{
                                 <div className="brand">Vinamilk</div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand5.jpg" alt="thương hiệu 1"/>
@@ -253,7 +253,7 @@ const page=()=>{
                                 <div className="brand">Vinamilk</div>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/">
                             <div className="small-item">
                                 <div className="brand-banner">
                                     <img src="images/brand/brand6.jpg" alt="thương hiệu 1"/>
@@ -273,7 +273,7 @@ const page=()=>{
                         Categories
                     </div>
                     <div className="categories">
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -281,7 +281,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -289,7 +289,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -297,7 +297,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -305,7 +305,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -313,7 +313,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -321,7 +321,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -329,7 +329,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -339,11 +339,35 @@ const page=()=>{
                         </a>
                     </div>
                     <div className="categories">
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
                             <div className="cateName">
+                                <span>Women's Flip Flop Slides</span>
+                            </div>
+                        </a>
+                        <a className="cateItem" href="/">
+                            <div className="catePreview">
+                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
+                            </div>
+                            <div className="cateName">
+                                <span>Women's Flip Flop Slides</span>
+                            </div>
+                        </a>
+                        <a className="cateItem" href="/">
+                            <div className="catePreview">
+                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
+                            </div>
+                            <div className="cateName">
+                                <span>Women's Flip Flop Slides</span>
+                            </div>
+                        </a>
+                        <a className="cateItem" href="/">
+                            <div className="catePreview">
+                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
+                            </div>
+                            <div className="cateName" href="/">
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
@@ -355,7 +379,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -363,7 +387,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -371,31 +395,7 @@ const page=()=>{
                                 <span>Women's Flip Flop Slides</span>
                             </div>
                         </a>
-                        <a className="cateItem">
-                            <div className="catePreview">
-                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
-                            </div>
-                            <div className="cateName">
-                                <span>Women's Flip Flop Slides</span>
-                            </div>
-                        </a>
-                        <a className="cateItem">
-                            <div className="catePreview">
-                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
-                            </div>
-                            <div className="cateName">
-                                <span>Women's Flip Flop Slides</span>
-                            </div>
-                        </a>
-                        <a className="cateItem">
-                            <div className="catePreview">
-                                <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
-                            </div>
-                            <div className="cateName">
-                                <span>Women's Flip Flop Slides</span>
-                            </div>
-                        </a>
-                        <a className="cateItem">
+                        <a className="cateItem" href="/">
                             <div className="catePreview">
                                 <img src="images/categories/cate1.jpg" alt="dép nữ" className="imgPreview"/>
                             </div>
@@ -439,7 +439,7 @@ const page=()=>{
                     </div>
                 </div>
                 <div className="load-more">
-                    <a href="#" className="">Load more</a>
+                    <a href="/" className="">Load more</a>
                 </div>
             </div>
         </>

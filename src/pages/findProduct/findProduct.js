@@ -7,13 +7,13 @@ const findProduct=()=>{
                     <ul style={{marginTop: "-7px"}}>
                         <li className="breadcrumbItem">
                             <span className="title">
-                                <a href="#">Home</a>
-                                <img src="images/productDetails/rightArrow.png"/>
+                                <a href="/">Home</a>
+                                <img src="images/productDetails/rightArrow.png" alt='#'/>
                             </span>
                         </li>
                         <li className="breadcrumbItem" id="mainNameProduct">
                             <span className="nameProduct">
-                                <a id="mainTitleProduct" href="#">Search result</a>
+                                <a id="mainTitleProduct" href="/">Search result</a>
                             </span>
                         </li>
                     </ul>
@@ -38,9 +38,9 @@ const findProduct=()=>{
                                                 Thích hợp nhất
                                             </button>
                                             <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                                <a className="dropdown-header" href="#">Thích hợp nhất</a>
-                                                <a className="dropdown-item" href="#">giá từ thấp tới cao</a>
-                                                <a className="dropdown-item" href="#">giá từ cao tới thấp</a>
+                                                <a className="dropdown-header" href="/">Thích hợp nhất</a>
+                                                <a className="dropdown-item" href="/">giá từ thấp tới cao</a>
+                                                <a className="dropdown-item" href="/">giá từ cao tới thấp</a>
                                             </div>
                                         </div>
                                     </div>

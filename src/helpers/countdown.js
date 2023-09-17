@@ -3,12 +3,11 @@ import { useState } from "react";
 
 function getHour(timer){
     let hours=Math.floor(timer/60/60);
-    hours= hours==0?'00':'0'+hours
+    hours= hours===0?'00':'0'+hours
     return hours;
 }
 function getMinute(timer){
     let minutes=Math.floor(timer/60%60);
-    console.log(minutes);
     minutes= minutes < 10 ? '0' + minutes : minutes;
     return minutes;
 }
@@ -27,7 +26,7 @@ const Countdown =()=>{
         const clockCountdown = new Date();
         let a = clockCountdown.getHours()%2;
         let b =0;
-        a==0? b=7200:b=3600;
+        a===0? b=7200:b=3600;
         let timer= b-clockCountdown.getMinutes()*60-clockCountdown.getSeconds();
         const countdownInterval = setInterval(()=>{
             const HH=getHour(timer);
@@ -37,7 +36,6 @@ const Countdown =()=>{
             setMm(MM);
             setSs(SS);
             timer--;
-            console.log(timer);
         },1000);
         return ()=>{
             clearInterval(countdownInterval);
