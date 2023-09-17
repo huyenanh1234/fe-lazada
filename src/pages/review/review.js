@@ -26,13 +26,13 @@ const review=()=>{
                                 <div class="review-body">
                                     <div class="order-item">
                                         <div class="item-pic">
-                                            <Link href="#" class="">
+                                            <Link href="/" class="">
                                                 <img src="images/order/img1.png" alt="logo"/>
                                             </Link>
                                         </div>
                                         <div class="item-main">
                                             <div class="item-title">
-                                                <Link href="#">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
+                                                <Link href="/">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
                                             </div>
                                             <div class="item-area">Miền:Bắc</div>
                                             <p class="item-description">Không bảo hành</p>

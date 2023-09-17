@@ -21,7 +21,7 @@ const ContentProduct=()=>{
                 <div className="blockContent">
                     <div className="proHeader">
                         <div className="proArea">
-                            <img src="/images/productDetails/iconLazGlobal.png"/>
+                            <img src="/images/productDetails/iconLazGlobal.png" alt='#'/>
                         </div>
                         <div className="proTitle">
                             <h1>Dép Lê Hai Dây Cổ Điển Phong Cách Hồng Kông Harajuku Harajuku Ins Phong Cách Hàn Quốc Sọc Mảnh Dép Đi Biển Đế Dày Học Sinh Mùa Hè Nữ Xăng Đan Đi Bên Ngoài</h1>
@@ -30,14 +30,14 @@ const ContentProduct=()=>{
                     <div className="proRating">
                         <div className="rating">
                             <div className="rateStar">
-                                <img src="/images/productDetails/star.png"/>
-                                <img src="/images/productDetails/star.png"/>
-                                <img src="/images/productDetails/star.png"/>
-                                <img src="/images/productDetails/star.png"/>
-                                <img src="/images/productDetails/star.png"/>
+                                <img src="/images/productDetails/star.png" alt='#'/>
+                                <img src="/images/productDetails/star.png" alt='#'/>
+                                <img src="/images/productDetails/star.png" alt='#'/>
+                                <img src="/images/productDetails/star.png" alt='#'/>
+                                <img src="/images/productDetails/star.png" alt='#'/>
                             </div>
                             <div className="rateQuantity">
-                                <a href="#">21 Ratings</a>
+                                <a href="/">21 Ratings</a>
                             </div> 
                         </div>
                         <div className="share">
@@ -51,9 +51,9 @@ const ContentProduct=()=>{
                     </div>
                     <div className="proBrand">
                         <span>Brand:</span>
-                        <a href="#">No brand</a>
+                        <a href="/">No brand</a>
                         <div className="divider"></div>
-                        <a href="#">More Women Shoes from No Brand</a>
+                        <a href="/">More Women Shoes from No Brand</a>
                     </div>
                     <div className="proPrice">
                         <span>₫389,000</span>
@@ -83,17 +83,17 @@ const ContentProduct=()=>{
                                     <div className="contentProduct">
                                         <span className="colorImg">
                                             <div className="colorLoad">
-                                                <img src="images/productDetails/img1.jpg"/>
+                                                <img src="images/productDetails/img1.jpg" alt='#'/>
                                             </div>
                                         </span>
                                         <span className="colorImg">
                                             <div className="colorLoad">
-                                                <img src="images/productDetails/img5.jpg"/>
+                                                <img src="images/productDetails/img5.jpg" alt='#'/>
                                             </div>
                                         </span>
                                         <span className="colorImg">
                                             <div className="colorLoad">
-                                                <img src="images/productDetails/img6.jpg"/>
+                                                <img src="images/productDetails/img6.jpg" alt='#'/>
                                             </div>
                                         </span>
                                     </div>
@@ -146,7 +146,7 @@ const ContentProduct=()=>{
                         <h6 className="quantityTitle">Quantity</h6>
                         <div className="quantityContent">
                             <div className="numberPicker">
-                                <a href="#">
+                                <a href="/">
                                     <span>
                                         <i className="fa-solid fa-minus"></i>
                                     </span>
@@ -156,7 +156,7 @@ const ContentProduct=()=>{
                                         <input type="text" step="1" min="1" max="30" defaultValue="1" autoComplete="off" height="100%"/>
                                     </span>
                                 </div>
-                                <a href="#">
+                                <a href="/">
                                     <span>
                                         <i className="fa-solid fa-plus"></i>
                                     </span>
@@ -192,7 +192,7 @@ const ContentProduct=()=>{
                                             <div className="locationBody">
                                                 <div className="locationIcon"><SlLocationPin/></div>
                                                 <div className="locationAddress">Hồ Chí Minh, Quận 1, Phường Phạm Ngũ Lão</div>
-                                                <div className="locationLinkChange"><a href="#">CHANGE</a></div>
+                                                <div className="locationLinkChange"><a href="/">CHANGE</a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -295,7 +295,7 @@ const ContentProduct=()=>{
                             <div className="sellerName">
                                 <div className="selName">
                                     <div className="nameTitle">Sold by</div>
-                                    <div className="nameDetail"><a href="#">细细条</a></div>
+                                    <div className="nameDetail"><a href="/">细细条</a></div>
                                 </div>
                                 <div className="selChatbox">
                                     <div className="chatboxContent">
@@ -319,7 +319,7 @@ const ContentProduct=()=>{
                                 </div>
                             </div>
                             <div className="sellerLink">
-                                <a href="#">GO TO STORE</a>
+                                <a href="/">GO TO STORE</a>
                             </div>
                         </div>
                     </div>

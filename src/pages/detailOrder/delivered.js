@@ -35,13 +35,13 @@ const delivered = ()=>{
                                 <div className="order-body bg-white">
                                     <div className="order-item">
                                         <div className="item-pic">
-                                            <Link href="#" className="">
+                                            <Link href="/" className="">
                                                 <img src="images/order/img1.png" alt="logo"/>
                                             </Link>
                                         </div>
                                         <div className="item-main">
                                             <div className="item-title">
-                                                <Link href="#">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
+                                                <Link href="/">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
                                             </div>
                                             <div className="item-area">Miền:Bắc</div>
                                             <p className="item-description">Không bảo hành</p>
@@ -63,13 +63,13 @@ const delivered = ()=>{
                                     </div>
                                     <div className="order-item">
                                         <div className="item-pic">
-                                            <Link href="#" className="">
+                                            <Link href="/" className="">
                                                 <img src="images/order/img1.png" alt="logo"/>
                                             </Link>
                                         </div>
                                         <div className="item-main">
                                             <div className="item-title">
-                                                <Link href="#">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
+                                                <Link href="/">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
                                             </div>
                                             <div className="item-area">Miền:Bắc</div>
                                             <p className="item-description">Không bảo hành</p>
@@ -91,13 +91,13 @@ const delivered = ()=>{
                                     </div>
                                     <div className="order-item">
                                         <div className="item-pic">
-                                            <Link href="#" className="">
+                                            <Link href="/" className="">
                                                 <img src="images/order/img1.png" alt="logo"/>
                                             </Link>
                                         </div>
                                         <div className="item-main">
                                             <div className="item-title">
-                                                <Link href="#">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
+                                                <Link href="/">[Siêu thị WinMart] - Thùng 36 hộp sữa đậu nành Fami canxi ít đường 200ml</Link>
                                             </div>
                                             <div className="item-area">Miền:Bắc</div>
                                             <p className="item-description">Không bảo hành</p>

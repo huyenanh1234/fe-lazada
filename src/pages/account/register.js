@@ -9,7 +9,7 @@ const Register=()=>{
                     </div>
                     <div className="register">
                         Already member? 
-                        <a href="#">Login</a> here.
+                        <a href="/">Login</a> here.
                     </div>
                     
                 </div>
@@ -25,7 +25,7 @@ const Register=()=>{
                                 <AiOutlineDoubleRight/>
                             </div>
                             <div className="smsCode">
-                                <a href="#">Slide to get SMS code</a>
+                                <a href="/">Slide to get SMS code</a>
                             </div>
                         </div>
                         <div className="name password">
@@ -37,7 +37,7 @@ const Register=()=>{
                         </div>
                         </div>
                         <div className="loginForgot">
-                        <a href="#">Forgot Password?</a>
+                        <a href="/">Forgot Password?</a>
                         </div>
                         <div className="getInfor">
                             <div className="getBirthday">
@@ -135,7 +135,7 @@ const Register=()=>{
                         </div>
                         <div className="loginPolicy">
                             <span >By proceeding to sign up, I acknowledge that I have read and consented to Lazada’s 
-                                <a href="#" >Terms of Use</a> and <a href="#">Privacy Policy</a>
+                                <a href="/" >Terms of Use</a> and <a href="/">Privacy Policy</a>
                                 , which sets out how Lazada collects, uses and discloses my personal data,
                                 and the rights that I have under applicable law.
                             </span>

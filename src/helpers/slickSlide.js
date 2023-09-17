@@ -47,8 +47,8 @@ export function MultipleItems() {
   const settings = {
     customPaging: function(i) {
       return (
-        <a>
-          <img src={`images/productDetails/img${i + 1}.jpg`} />
+        <a href="/">
+          <img src={`images/productDetails/img${i + 1}.jpg`} alt='#' />
         </a>
       );
     },
@@ -76,25 +76,25 @@ export function MultipleItems() {
     <div className="slickContent">
       <Slider {...settings}>
       <div className="itemGallery">
-        <img className="activeBorder" src="/images/productDetails/img1.jpg"/>
+        <img className="activeBorder" src="/images/productDetails/img1.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img2.jpg"/>
+        <img src="/images/productDetails/img2.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img3.jpg"/>
+        <img src="/images/productDetails/img3.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img4.jpg"/>
+        <img src="/images/productDetails/img4.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img5.jpg"/>
+        <img src="/images/productDetails/img5.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img6.jpg"/>
+        <img src="/images/productDetails/img6.jpg" alt='#'/>
       </div>
       <div className="itemGallery">
-        <img src="/images/productDetails/img7.jpg"/>
+        <img src="/images/productDetails/img7.jpg" alt='#'/>
       </div>
       </Slider>
     </div>

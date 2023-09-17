@@ -6,17 +6,17 @@ const footer=()=>{
                     <div className="card-content">
                         <ul className="cardUl">
                             <li className="cardLi">
-                                <a href="#">
+                                <a href="/">
                                     <img src="/images/footer/card/bottom1.png" alt="discount" className=""/>
                                 </a>
                             </li>
                             <li className="cardLi">
-                                <a href="#">
+                                <a href="/">
                                     <img src="/images/footer/card/bottom2.png" alt="discount" className=""/>
                                 </a>
                             </li>
                             <li className="cardLi">
-                                <a href="#">
+                                <a href="/">
                                     <img src="/images/footer/card/bottom3.png" alt="discount" className=""/>
                                 </a>
                             </li>
@@ -31,12 +31,12 @@ const footer=()=>{
                                     CONTACT US
                                 </h3>
                                 <ul className="footer-list">
-                                    <li className="footer-li"><a href="#">Hotline & Online chat (24/7)</a></li>
-                                    <li className="footer-li"><a href="#">Help Center</a></li>
-                                    <li className="footer-li"><a href="#">How to Buy</a></li>
-                                    <li className="footer-li"><a href="#">Shipping & Delivery</a></li>
-                                    <li className="footer-li"><a href="#">International Product Policy</a></li>
-                                    <li className="footer-li"><a href="#">How to Return</a></li>
+                                    <li className="footer-li"><a href="/">Hotline & Online chat (24/7)</a></li>
+                                    <li className="footer-li"><a href="/">Help Center</a></li>
+                                    <li className="footer-li"><a href="/">How to Buy</a></li>
+                                    <li className="footer-li"><a href="/">Shipping & Delivery</a></li>
+                                    <li className="footer-li"><a href="/">International Product Policy</a></li>
+                                    <li className="footer-li"><a href="/">How to Return</a></li>
                                 </ul>
                             </div>
                             <div className="footer-center col-3">
@@ -44,22 +44,22 @@ const footer=()=>{
                                     LAZADA VIETNAM
                                 </h3>
                                 <ul className="footer-list">
-                                    <li className="footer-li"><a href="#">All Categories</a></li>
-                                    <li className="footer-li"><a href="#">About Lazada</a></li>
-                                    <li className="footer-li"><a href="#">Sell on Lazada</a></li>
-                                    <li className="footer-li"><a href="#">Afﬁliate Program</a></li>
-                                    <li className="footer-li"><a href="#">Careers</a></li>
-                                    <li className="footer-li"><a href="#">Terms & Conditions</a></li>
-                                    <li className="footer-li"><a href="#">Privacy Policy</a></li>
-                                    <li className="footer-li"><a href="#">Press & Media</a></li>
-                                    <li className="footer-li"><a href="#">Intellectual Property Protection</a></li>
-                                    <li className="footer-li"><a href="#">Operating Regulation</a></li>
-                                    <li className="footer-li"><a href="#">Procedure of claim and dispute handling</a></li>
+                                    <li className="footer-li"><a href="/">All Categories</a></li>
+                                    <li className="footer-li"><a href="/">About Lazada</a></li>
+                                    <li className="footer-li"><a href="/">Sell on Lazada</a></li>
+                                    <li className="footer-li"><a href="/">Afﬁliate Program</a></li>
+                                    <li className="footer-li"><a href="/">Careers</a></li>
+                                    <li className="footer-li"><a href="/">Terms & Conditions</a></li>
+                                    <li className="footer-li"><a href="/">Privacy Policy</a></li>
+                                    <li className="footer-li"><a href="/">Press & Media</a></li>
+                                    <li className="footer-li"><a href="/">Intellectual Property Protection</a></li>
+                                    <li className="footer-li"><a href="/">Operating Regulation</a></li>
+                                    <li className="footer-li"><a href="/">Procedure of claim and dispute handling</a></li>
                                 </ul>
                             </div>
                             <div className="footer-right col-6 d-flex justify-content-evenly">
                                 <div className="app-icon">
-                                    <img src="/images/footer/app/appIcon.png" alt="" className=""/>
+                                    <img src="/images/footer/app/appIcon.png" alt="#" className=""/>
                                 </div>
                                 <div className="app-download-text">
                                     <div className="title">Go where your heart beats</div>
@@ -67,15 +67,15 @@ const footer=()=>{
                                 </div>
                                 <div className="app-left">
                                     <div className="d-flex">
-                                        <a href="#" className="col-6">
-                                            <img src="/images/footer/app/appGooglePlay.png"/>
+                                        <a href="/" className="col-6">
+                                            <img src="/images/footer/app/appGooglePlay.png" alt="#"/>
                                         </a>
-                                        <a href="#" className="col-6">
-                                            <img src="/images/footer/app/appStore.png"/>
+                                        <a href="/" className="col-6">
+                                            <img src="/images/footer/app/appStore.png" alt="#"/>
                                         </a>
                                     </div>
-                                    <a href="#" className="">
-                                        <img src="/images/footer/app/appGallery.png"/>
+                                    <a href="/" className="">
+                                        <img src="/images/footer/app/appGallery.png" alt="#"/>
                                     </a>
                                 </div>
                             </div>
@@ -88,7 +88,7 @@ const footer=()=>{
                                     Payment Methods
                                 </h3>
                                 <div className="payment">
-                                    <img src="/images/footer/paymentMethod/payment.png"/>
+                                    <img src="/images/footer/paymentMethod/payment.png" alt="#"/>
                                 </div>
                             </div>
                             <div className="footer-center">
@@ -96,7 +96,7 @@ const footer=()=>{
                                     Delivery Services
                                 </h3>
                                 <div className="delivery">
-                                    <img src="/images/footer/delivery/delivery.png"/>
+                                    <img src="/images/footer/delivery/delivery.png" alt="#"/>
                                 </div>
                             </div>
                             <div className="footer-right">
@@ -104,7 +104,7 @@ const footer=()=>{
                                     Verified by
                                 </h3>
                                 <div className="verified">
-                                    <img src="/images/footer/verified/verified.png"/>
+                                    <img src="/images/footer/verified/verified.png" alt="#"/>
                                 </div>
                             </div>
                         </div>
@@ -193,16 +193,16 @@ const footer=()=>{
                                     TOP CATEGORIES & BRANDS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">Iphone</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">Iphone 12</a><span>, </span>
-                                        <a href="#">Iphone 14</a><span>, </span>
+                                        <a href="/">Iphone</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">Iphone 12</a><span>, </span>
+                                        <a href="/">Iphone 14</a><span>, </span>
                                     </div>
                                     
                                 </div>
@@ -217,16 +217,16 @@ const footer=()=>{
                                     TABLETS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">iPad</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">Iphone 12</a><span>, </span>
-                                        <a href="#">Iphone 14</a><span>, </span>
+                                        <a href="/">iPad</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">Iphone 12</a><span>, </span>
+                                        <a href="/">Iphone 14</a><span>, </span>
                                     </div>
                                     
                                 </div>
@@ -240,16 +240,16 @@ const footer=()=>{
                                     TELEVISIONS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">Iphone</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">LG</a><span>, </span>
-                                        <a href="#">ViewSonic</a><span>, </span>
+                                        <a href="/">Iphone</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">LG</a><span>, </span>
+                                        <a href="/">ViewSonic</a><span>, </span>
                                     </div>
                                     
                                 </div>
@@ -263,16 +263,16 @@ const footer=()=>{
                                     TOP CATEGORIES & BRANDS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">Iphone</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">Iphone 12</a><span>, </span>
-                                        <a href="#">Iphone 14</a><span>, </span>
+                                        <a href="/">Iphone</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">Iphone 12</a><span>, </span>
+                                        <a href="/">Iphone 14</a><span>, </span>
                                     </div>
                                 </div>
                                 <h3 className="footer-title mt-3" style={{
@@ -283,16 +283,16 @@ const footer=()=>{
                                     TABLETS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">iPad</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">Iphone 12</a><span>, </span>
-                                        <a href="#">Iphone 14</a><span>, </span>
+                                        <a href="/">iPad</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">Iphone 12</a><span>, </span>
+                                        <a href="/">Iphone 14</a><span>, </span>
                                     </div>
                                     
                                 </div>
@@ -305,16 +305,16 @@ const footer=()=>{
                                     TELEVISIONS
                                 </h3>
                                 <div className="text-a" style={{fontSize: "10px",}}>
-                                    <a href="#" className="" style={{color: "#606060",}}>SMARTPHONE</a>
+                                    <a href="/" className="" style={{color: "#606060",}}>SMARTPHONE</a>
                                     <div className="">
-                                        <a href="#">Iphone</a><span>, </span>
-                                        <a href="#">Samsung</a><span>, </span>
-                                        <a href="#">Xiaomi</a><span>, </span>
-                                        <a href="#">Vinsmart</a><span>, </span>
-                                        <a href="#">Vivo</a><span>, </span>
-                                        <a href="#">Oppo</a><span>, </span>
-                                        <a href="#">LG</a><span>, </span>
-                                        <a href="#">ViewSonic</a><span>, </span>
+                                        <a href="/">Iphone</a><span>, </span>
+                                        <a href="/">Samsung</a><span>, </span>
+                                        <a href="/">Xiaomi</a><span>, </span>
+                                        <a href="/">Vinsmart</a><span>, </span>
+                                        <a href="/">Vivo</a><span>, </span>
+                                        <a href="/">Oppo</a><span>, </span>
+                                        <a href="/">LG</a><span>, </span>
+                                        <a href="/">ViewSonic</a><span>, </span>
                                     </div>
                                     
                                 </div>
@@ -326,13 +326,13 @@ const footer=()=>{
                             <div className="footer-left col-6">
                                 <h3 className="footer-title">Lazada Southeast Asia</h3>
                                 <div className="flag">
-                                    <img src="/images/footer/flag/flag.png"/>
+                                    <img src="/images/footer/flag/flag.png" alt="#"/>
                                 </div>
                             </div>
                             <div className="footer-center col-3" >
                                 <h3 className="footer-title">Follow Us</h3>
                                 <div className="social">
-                                    <img src="/images/footer/flag/socialMedia.png"/>
+                                    <img src="/images/footer/flag/socialMedia.png" alt="#"/>
                                 </div>
                             </div>
                             <div className="footer-right col-3">

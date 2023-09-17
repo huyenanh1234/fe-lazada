@@ -151,7 +151,7 @@
         }
         .proBrand{
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             width: 100%;
             padding-bottom: 15px;
             border-bottom: 1px solid #eff0f5;
@@ -186,7 +186,7 @@
         .proPromotion{
             .promotionSection{
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start;
                 padding-top: 4px;
                 padding: 8px 0;
                 .sectionTitle{
@@ -242,7 +242,7 @@
                 .select{
                     padding: 8px 0;
                     display: flex;
-                    justify-content: start;
+                    justify-content: flex-start;
                     .selectTitle{
                         display: inline-block;
                         margin: 0;
@@ -278,7 +278,7 @@
                             font-size: 0;
                             user-select: none;
                             display: flex;
-                            justify-content: start;
+                            justify-content: flex-start;
                             margin-top: 8px;
                             .colorImg{
                                 box-sizing: border-box;
@@ -359,7 +359,7 @@
         }
         .proQuantity{
             display: flex;
-            justify-content: start;
+            justify-content: flex-start;
             padding-top: 24px!important;
             padding: 8px 0;
             .quantityTitle{
@@ -375,14 +375,14 @@
             }
             .quantityContent{
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start;
                 .numberPicker{ 
                     color: #212121;
                     font-family: Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,Sans-serif;
                     font-size: 14px;
                     line-height: 1.28571;
                     display: flex;
-                    justify-content: start;
+                    justify-content: flex-start;
                     margin: 0;
                     padding: 0;
                     vertical-align: middle;
@@ -567,7 +567,7 @@
                             .locationCurrent{
                                 .locationBody{
                                     display: flex;
-                                    justify-content: start;
+                                    justify-content: flex-start;
                                     width: 100%;
                                     .locationIcon{
                                         font-size: 20px;
@@ -622,7 +622,7 @@
                 border-top: 1px solid #eff0f5;
                 font-size: 14px;
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start;
                 .guideAppQrcode{
                     width: 130px;
                     img{

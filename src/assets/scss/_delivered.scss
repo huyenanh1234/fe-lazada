@@ -11,7 +11,7 @@
         }
         .price{
             font-weight: 500;
-            text-align: end;
+            text-align: flex-end;
         }
     }
 }
@@ -46,7 +46,7 @@
             margin: 0;
             padding: 0;
             .order-left-info{
-                justify-self: start;
+                justify-self: flex-start;
                 display: flex;
                 align-items: center;
                 cursor: pointer;
@@ -81,7 +81,7 @@
         .order-right{
             display: flex;
             align-items: center;
-            justify-self: end;
+            justify-self: flex-end;
             margin: 0;
             padding: 0;
             .shop-right-status{

@@ -52,11 +52,11 @@ const AdditionInfoProduct=()=>{
                                             </div>
                                             <div className="everage">
                                                 <div className="containerStar">
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
                                                 </div>
                                             </div>
                                             <div className="count"> 24 Ratings</div>
@@ -65,11 +65,11 @@ const AdditionInfoProduct=()=>{
                                             <ul>
                                                 <li>
                                                     <div className="container-star">
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
                                                     </div>
                                                     <span className="progress-wrap">
                                                         <div className="review-progress">
@@ -83,11 +83,11 @@ const AdditionInfoProduct=()=>{
                                                 </li>
                                                 <li>
                                                     <div className="container-star">
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
                                                     </div>
                                                     <span className="progress-wrap">
                                                         <div className="review-progress">
@@ -101,11 +101,11 @@ const AdditionInfoProduct=()=>{
                                                 </li>
                                                 <li>
                                                     <div className="container-star">
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
                                                     </div>
                                                     <span className="progress-wrap">
                                                         <div className="review-progress">
@@ -119,11 +119,11 @@ const AdditionInfoProduct=()=>{
                                                 </li>
                                                 <li>
                                                     <div className="container-star" >
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
-                                                        <img src="images/productDetails/star.png"/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
+                                                        <img src="images/productDetails/star.png" alt='#'/>
                                                     </div>
                                                     <span className="progress-wrap">
                                                         <div className="review-progress">
@@ -136,11 +136,11 @@ const AdditionInfoProduct=()=>{
                                                     <span className="percent">24</span>
                                                 </li>
                                                 <li><div className="container-star" >
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
-                                                    <img src="images/productDetails/star.png"/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
+                                                    <img src="images/productDetails/star.png" alt='#'/>
                                                 </div>
                                                 <span className="progress-wrap">
                                                     <div className="review-progress">
@@ -179,11 +179,11 @@ const AdditionInfoProduct=()=>{
                         <div className="item">
                             <div className="top d-flex justify-content-between">
                                 <div className="containerStar col-10">
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
                                 </div>
                                 <span className="title-right col-2 text-end">21 Feb 2023</span>
                             </div>
@@ -192,7 +192,7 @@ const AdditionInfoProduct=()=>{
                                     by Tran T.
                                 </span>
                                 <span>
-                                    <img src="images/productDetails/verifyIcon.png"/>
+                                    <img src="images/productDetails/verifyIcon.png" alt='#'/>
                                     <span className="verify">Verified Purchase</span>
                                 </span>
                             </div>
@@ -201,18 +201,18 @@ const AdditionInfoProduct=()=>{
                                 <div className="review-img">
                                     <div className="list-img">
                                         <div className="wraper-img">
-                                            <img src="images/productDetails/review1.jpg"/>
+                                            <img src="images/productDetails/review1.jpg" alt='#'/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="info-product">Phân loại màu sắc:Màu đen, Kích cỡ giày:36</div>
                                 <div className="bottom row justify-content-between">
                                     <span className="left col-1 text-start">
-                                        <a href="#" className="like-icon"><FaRegThumbsUp/></a>
-                                        <a href="#"><span className="">0</span></a>
+                                        <a href="/" className="like-icon"><FaRegThumbsUp/></a>
+                                        <a href="/"><span className="">0</span></a>
                                     </span>
                                     <span className="right col-1 text-end">
-                                        <a href="#" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
+                                        <a href="/" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
                                     </span>
                                 </div>
                             </div>
@@ -220,11 +220,11 @@ const AdditionInfoProduct=()=>{
                         <div className="item">
                             <div className="top d-flex justify-content-between">
                                 <div className="containerStar col-10">
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
                                 </div>
                                 <span className="title-right col-2 text-end">21 Feb 2023</span>
                             </div>
@@ -233,7 +233,7 @@ const AdditionInfoProduct=()=>{
                                     by Tran T.
                                 </span>
                                 <span>
-                                    <img src="images/productDetails/verifyIcon.png"/>
+                                    <img src="images/productDetails/verifyIcon.png" alt='#'/>
                                     <span className="verify">Verified Purchase</span>
                                 </span>
                             </div>
@@ -242,18 +242,18 @@ const AdditionInfoProduct=()=>{
                                 <div className="review-img">
                                     <div className="list-img">
                                         <div className="wraper-img">
-                                            <img src="images/productDetails/review1.jpg"/>
+                                            <img src="images/productDetails/review1.jpg" alt='#'/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="info-product">Phân loại màu sắc:Màu đen, Kích cỡ giày:36</div>
                                 <div className="bottom row justify-content-between">
                                     <span className="left col-1 text-start">
-                                        <a href="#" className="like-icon"><FaRegThumbsUp/></a>
-                                        <a href="#"><span className="">0</span></a>
+                                        <a href="/" className="like-icon"><FaRegThumbsUp/></a>
+                                        <a href="/"><span className="">0</span></a>
                                     </span>
                                     <span className="right col-1 text-end">
-                                        <a href="#" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
+                                        <a href="/" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
                                     </span>
                                 </div>
                             </div>
@@ -261,11 +261,11 @@ const AdditionInfoProduct=()=>{
                         <div className="item">
                             <div className="top d-flex justify-content-between">
                                 <div className="containerStar col-10">
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
-                                    <img src="images/productDetails/star.png"/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
+                                    <img src="images/productDetails/star.png" alt='#'/>
                                 </div>
                                 <span className="title-right col-2 text-end">21 Feb 2023</span>
                             </div>
@@ -274,7 +274,7 @@ const AdditionInfoProduct=()=>{
                                     by Tran T.
                                 </span>
                                 <span>
-                                    <img src="images/productDetails/verifyIcon.png"/>
+                                    <img src="images/productDetails/verifyIcon.png" alt='#'/>
                                     <span className="verify">Verified Purchase</span>
                                 </span>
                             </div>
@@ -283,18 +283,18 @@ const AdditionInfoProduct=()=>{
                                 <div className="review-img">
                                     <div className="list-img">
                                         <div className="wraper-img">
-                                            <img src="images/productDetails/review1.jpg"/>
+                                            <img src="images/productDetails/review1.jpg" alt='#'/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="info-product">Phân loại màu sắc:Màu đen, Kích cỡ giày:36</div>
                                 <div className="bottom row justify-content-between">
                                     <span className="left col-1 text-start">
-                                        <a href="#" className="like-icon"><FaRegThumbsUp/></a>
-                                        <a href="#"><span className="">0</span></a>
+                                        <a href="/" className="like-icon"><FaRegThumbsUp/></a>
+                                        <a href="/"><span className="">0</span></a>
                                     </span>
                                     <span className="right col-1 text-end">
-                                        <a href="#" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
+                                        <a href="/" className="oper-wrap"><i className="fa-solid fa-ellipsis-vertical"></i></a>
                                     </span>
                                 </div>
                             </div>
@@ -448,12 +448,12 @@ const AdditionInfoProduct=()=>{
                         <div className="relate-inner">
                             <div className="relate-title"><h2>Related Search</h2></div>
                             <div className="relate-content">
-                                <a href="#" className="">dép sandal nữ đi học phong cách hàn quốc</a><a href="#" className="">dép lê phong cách tiên nữ</a>
-                                <a href="#" className="">dép lê phong cách xăng đan bánh xốp đế dày</a><a href="#" className="">dép bánh mì.cho nam</a>
-                                <a href="#" className="">dép nam phong cách hàn quốc</a><a href="#" className=""></a>
-                                <a href="#" className="">Áo khoác nữ màu Đỏ tía Áo khoác Áo khoác mùa Đông phong cách hàn quốc mới 2022 Áo khoác cổ c</a><a href="#" className="">kem bôi rạn da yoosun mâm</a>
-                                <a href="#" className="">quần bò nam loại mỏng mùa hè quần dài co giãn phong cách hàn quốc</a><a href="#" className="">quánh chống dính bếp từ</a>
-                                <a href="#" className="">áo ngắn tay dài hoạ tiết phong cách hàn quốc dễ thương cho nữ</a><a href="#" className="">ốp lưng điện thoại samsung a23 iron man</a>
+                                <a href="/" className="">dép sandal nữ đi học phong cách hàn quốc</a><a href="/" className="">dép lê phong cách tiên nữ</a>
+                                <a href="/" className="">dép lê phong cách xăng đan bánh xốp đế dày</a><a href="/" className="">dép bánh mì.cho nam</a>
+                                <a href="/" className="">dép nam phong cách hàn quốc</a><a href="/" className="">dép phong cách hàn quốc</a>
+                                <a href="/" className="">Áo khoác nữ màu Đỏ tía Áo khoác Áo khoác mùa Đông phong cách hàn quốc mới 2022 Áo khoác cổ c</a><a href="/" className="">kem bôi rạn da yoosun mâm</a>
+                                <a href="/" className="">quần bò nam loại mỏng mùa hè quần dài co giãn phong cách hàn quốc</a><a href="/" className="">quánh chống dính bếp từ</a>
+                                <a href="/" className="">áo ngắn tay dài hoạ tiết phong cách hàn quốc dễ thương cho nữ</a><a href="/" className="">ốp lưng điện thoại samsung a23 iron man</a>
                             </div>
                         </div>
                     </div>
@@ -463,7 +463,7 @@ const AdditionInfoProduct=()=>{
                         <h6 className="recommendTitle" >You may also like</h6>
                         <div className="recommendProductList">
                             <div className="recommendProductItem">
-                                <a href="#" className="ReProductImg">
+                                <a href="/" className="ReProductImg">
                                     <div className="blockProImg">
                                         <div className="ProImg">
                                             <img src="images/productDetails/rePro1.jpg" alt="recommend product"/>
